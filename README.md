@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Hamro Sewa Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Backend available here: [https://github.com/iampurnima/hamrosewa](https://github.com/iampurnima/hamrosewa).
 
 ## Available Scripts
 
