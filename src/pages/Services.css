@@ -1,0 +1,140 @@
+ /* General Styles */
+.explore-services {
+    padding: 2rem;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+  }
+  
+  h1 {
+    color: #0077b6;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .search-section {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .search-section input {
+    padding: 0.8rem;
+    width: 60%;
+    max-width: 600px;
+    font-size: 1rem;
+    border: 1px solid #0077b6;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .search-section button {
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    background-color: #0077b6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .search-section button:hover {
+    background-color: #023047;
+  }
+  
+  .service-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .service-card {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .service-card h3 {
+    color: #023047;
+    font-size: 1.5rem;
+  }
+  
+  .service-card p {
+    color: #555;
+  }
+  
+  .btn-book {
+    padding: 0.8rem 1.5rem;
+    background-color: #0077b6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+  
+  .btn-book:hover {
+    background-color: #023047;
+  }
+  
+  /* Booking Section */
+  .booking-section {
+    padding: 2rem;
+    background-color: #f0f8ff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .booking-section h2 {
+    color: #0077b6;
+  }
+  
+  .rating-section input {
+    padding: 0.5rem;
+    width: 60px;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 0.5rem;
+  }
+  
+  .review-section textarea {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-top: 1rem;
+    border: 1px solid #0077b6;
+    resize: vertical;
+  }
+  
+  .btn-review {
+    padding: 0.8rem 2rem;
+    background-color: #0077b6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+  
+  .btn-review:hover {
+    background-color: #023047;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .search-section input {
+      width: 80%;
+    }
+  
+    .service-card {
+      padding: 1rem;
+    }
+  
+    .btn-book,
+    .btn-review {
+      width: 100%;
+    }
+  }
+  
